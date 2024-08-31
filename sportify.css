@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Heebo:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-color: red;
+} */
+li{
+    list-style-type: none;
+}
+.brand>img{
+   height: 2rem;
+   width: 2rem;
+   border-radius: 50%;
+   /* display: none; */
+}
+#pass{
+   color: red;
+}
+nav{
+    font-family: "Josefin Sans", sans-serif;
+    /* height:4rem; */
+} 
+
+.sportify{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.cont{
+    background-color: white;
+    height: 3.5rem;
+    border: 1px solid black;
+}
+nav ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.bdy{
+    height: 25rem;
+    max-width: 80%;
+    /* background-color: red; */
+    /* padding: 3rem ; */
+    margin: 1.5rem 10rem;
+    border-radius: 5px;
+    background-image: url(images/bg.jpg);
+    background-size: cover; 
+}
+.bottom{
+    height: 5rem;
+    max-width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: sticky;
+    bottom: 0;
+}
+.mybottombar{
+    width: 80%;
+    cursor: pointer;
+}
+#masterplay{
+    cursor: pointer;
+}
+.heading{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+    /* padding: 2rem; */
+    margin: 1rem 0 0 2.5rem;
+}
+.icon{
+    font-size: 2rem;
+    
+}
+/* body{
+    background-color: antiquewhite;
+} */
+.songitem{
+    height: 2rem;
+    background-color: white;
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    /* margin: 2rem; */
+    margin: 0.4rem 2rem;
+    padding: 0 0.5rem 0 0;
+}
+.songitem img{
+    height: 2rem;
+    border-radius: 1.2rem;
+}
+.timestamp{
+    font-size: large
+}
+.ab{
+    display: flex;
+    align-items: center;
+}
+.songitem i{
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-around;
+}
+#timestamp{
+    position: absolute;
+    bottom: 0.5rem;
+    left: 61.5rem;
+    display: none;
+    /* color: aquamarine; */
+}
+#cd{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    display: none;
+    /* transform: rotate(360deg); */
+    /* transform: rotate(360deg);
+    transition: all 0.5s ease-in-out; */
+}
+.fa-user{
+    font-size: larger;
+    border: 1px solid black; 
+    border-radius: 50%;
+    padding: 0.3rem;
+    color: white; 
+    background-color: black;
+}
+.songinfo{
+    /* width: 55px; */
+    position: absolute;
+    left: 8rem;
+    bottom: 1rem;
+}
+#id1{
+    border-radius: 50%;
+}
+.login{
+    border: 2px aquamarine solid;
+    position: absolute;
+    top: 5rem;
+    right: 4rem;
+    background-color: black;
+    opacity: 0.8;
+    color: aquamarine;
+   padding: 1rem;
+   display: none;
+   cursor: pointer;
+}
+#userlogin{
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.button button{
+    width: 4rem;
+    margin: 1rem;
+    border: 3px solid aquamarine;
+}
